@@ -35,3 +35,11 @@ else:
     print("este es el valor del If falso")
     print(f"A no es igual que 1 y su valor es {A}")
 
+#Condicional if con "desigual que"
+
+if(A!=1):
+    print("este es el valor del If verdadero")
+    print(f"A no es igual que 1 y su valor es {A}")
+else:
+    print("este es el valor del If falso")
+    print(f"A es igual que 1 y su valor es {A}")
