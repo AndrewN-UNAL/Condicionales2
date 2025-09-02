@@ -53,3 +53,11 @@ else:
     print("este es el valor del If falso")
     print(f"A no es igual o mayor que 1 y su valor es {A}")
 
+#Condicional if con "igual o menor que"
+
+if(A<=1):
+    print("este es el valor del If verdadero")
+    print(f"A es igual o menor que 1 y su valor es {A}")
+else:
+    print("este es el valor del If falso")
+    print(f"A no es igual o menor que 1 y su valor es {A}")
