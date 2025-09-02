@@ -11,6 +11,10 @@ S = 5
 
 print("te doy un entero",type(S), int(S))
 
-print("ahora es un decimal",type(S), float(S))
+float(S)
 
-print("y ahora es un texto",type(S), str(S))
+print("ahora es un decimal",type(S), S)
+
+str(S)
+
+print("y ahora es un texto",type(S), S)
