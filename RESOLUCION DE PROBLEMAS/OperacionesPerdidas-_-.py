@@ -19,32 +19,30 @@ S = str(S)
 
 print("y ahora es un texto",type(S), S)
 
-S = int(S)
-
 #Operaciones
-
+A = 6
 print("seguimos con las operaciones básicas")
 
 #suma
 
-print("Esta es la suma", S+5)
+print("Esta es la suma", A+5)
 
 #resta
 
-print("Esta es la resta", S-5)
+print("Esta es la resta", A-5)
 
 #multiplicación
 
-print("Esta es la multiplicación", S*5)
+print("Esta es la multiplicación", A*5)
 
 #división
-S = float(S)
-print("Esta es la divisón", S/5)
-S = int(S)
+A = float(A)
+print("Esta es la divisón", A/5)
+A = int(A)
 #potencia
 
-print("Esta es la potencia", S**5)
+print("Esta es la potencia", A**5)
 
 #Raiz
-S = float(S)
-print("Y Esta es la Raiz", S**(1/2))
+A = float(A)
+print("Y Esta es la Raiz", A**(1/2))
